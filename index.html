@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>RESQWALL</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1> RESQWALL</h1>
+				<nav>
+					<ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#one">Menu 1</a></li>
+						<li><a href="#two">Menu 2</a></li>
+						<li><a href="#work">Gallery</a></li>
+						<li><a href="#contact">Shop</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<header>
+						<h2>Introducing RESQWALL</h2>
+					</header>
+					<p>Pioneering <strong>flood defence solutions</strong> for a secure and cost-efficient future. </p>
+					<footer>
+						<ul class="actions special">
+								<li><input type="submit" value="Shop RESQWALL" /></li>
+							</ul>
+						
+					</footer>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Technical Innovation Meets Competitve Pricing</h2>
+					</header>
+					<p>RESQWALL redefines flood protection by integrating cutting-edge technical innovation with highly competitive pricing. Our revolutionary self-floating tubular top detail is a testament to our commitment to efficient flood defense. With this innovation, we eliminate the need for ground stakes or fasteners, offering you maximal efficiency without compromising on security.</p>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Unmatched Modularity and Flexibility</h2>
+					</header>
+					<p>Our flood barrier system is as versatile as it is robust. RESQWALL adapts seamlessly to your environment, ensuring your community remains protected in every situation. Whether you're shielding a town, securing an industrial complex, or requiring temporary protection during ditch cleaning operations, RESQWALL is the resilient and cost-conscious partner you can rely on.</p>
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>Empowering Communities for a Safer Tomorrow</h2>
+						<p>We are not just safeguarding properties; we are empowering communities to face the challenges of tomorrow head-on. RESQWALL's adaptability, affordability, and innovative design make us the go-to choice for forward-thinking individuals and organizations seeking a secure and budget-conscious future.</p>
+					</header>
+
+					<!-- Gallery  -->
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a>
+							</article>
+						</div>
+
+				</div>
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Place your order</h2>
+						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
+					</header>
+					<div class="box">
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
+								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
+								<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+							</div>
+							
+						</li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section id="contact" class="main style 3 secondary">
+	<div class="content">
+    <script data-sdk-integration-source="integrationbuilder_ac"></script>
+    <div id="paypal-button-container"></div>
+    <script src="https://www.paypal.com/sdk/js?client-id=AacaesW4M-UJ65n57DHkZ1CpNuoRoW6elVGRjFXMu--FDufShUs0LIeFP-g_DIEiYoLppjYfpIC3SFvy&components=buttons&enable-funding=venmo,paylater"></script>
+    <script>
+      const FUNDING_SOURCES = [
+        paypal.FUNDING.PAYPAL,
+        paypal.FUNDING.PAYLATER,
+        paypal.FUNDING.VENMO,
+        paypal.FUNDING.CARD,
+      ];
+
+      FUNDING_SOURCES.forEach((fundingSource) => {
+        paypal
+          .Buttons({
+            fundingSource,
+            style: {
+              layout: 'vertical',
+              shape: 'rect',
+              color: fundingSource === paypal.FUNDING.PAYLATER ? 'gold' : '',
+            },
+            createOrder: async (data, actions) => {
+              try {
+                const response = await fetch('http://localhost:9597/orders', {
+                  method: 'POST',
+                });
+
+                const details = await response.json();
+                return details.id;
+              } catch (error) {
+                console.error(error);
+                // Handle the error or display an appropriate error message to the user
+              }
+            },
+            onApprove: async (data, actions) => {
+              try {
+                const response = await fetch(
+                  `http://localhost:9597/orders/${data.orderID}/capture`,
+                  {
+                    method: 'POST',
+                  }
+                );
+
+                const details = await response.json();
+                // Three cases to handle:
+                //   (1) Recoverable INSTRUMENT_DECLINED -> call actions.restart()
+                //   (2) Other non-recoverable errors -> Show a failure message
+                //   (3) Successful transaction -> Show confirmation or thank you message
+
+                // This example reads a v2/checkout/orders capture response, propagated from the server
+                // You could use a different API or structure for your 'orderData'
+                const errorDetail =
+                  Array.isArray(details.details) && details.details[0];
+
+                if (
+                  errorDetail &&
+                  errorDetail.issue === 'INSTRUMENT_DECLINED'
+                ) {
+                  return actions.restart();
+                  // https://developer.paypal.com/docs/checkout/integration-features/funding-failure/
+                }
+
+                if (errorDetail) {
+                  let msg = 'Sorry, your transaction could not be processed.';
+                  msg += errorDetail.description
+                    ? ' ' + errorDetail.description
+                    : '';
+                  msg += details.debug_id ? ' (' + details.debug_id + ')' : '';
+                  alert(msg);
+                }
+
+                // Successful capture! For demo purposes:
+                console.log(
+                  'Capture result',
+                  details,
+                  JSON.stringify(details, null, 2)
+                );
+                const transaction =
+                  details.purchase_units[0].payments.captures[0];
+                alert(
+                  'Transaction ' +
+                    transaction.status +
+                    ': ' +
+                    transaction.id +
+                    'See console for all available details'
+                );
+              } catch (error) {
+                console.error(error);
+                // Handle the error or display an appropriate error message to the user
+              }
+            },
+          })
+          .render('#paypal-button-container');
+      });
+    </script>
+  </body>
+</html>
+
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
